@@ -17,7 +17,7 @@ p {
 }
 
 .content-box {
-  max-width: 1000px;
+  max-width: 1350px;
   padding: 20px;
   margin: 20px auto;
   background-color: #1f2933;
@@ -70,5 +70,6 @@ nav a:hover {
   background: #4f46e5;
   text-decoration: none;
 }
+
 
 
