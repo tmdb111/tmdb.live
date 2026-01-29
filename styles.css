@@ -6,6 +6,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 0;
+  margin-top: 40px;
 }
 
 h1 {
@@ -70,6 +71,7 @@ nav a:hover {
   background: #4f46e5;
   text-decoration: none;
 }
+
 
 
 
