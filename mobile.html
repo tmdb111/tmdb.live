@@ -41,6 +41,61 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   align-items: center;
   text-align: center;
-}</style>
+}
+
+  /* === tmddbb.live - make cards & bottom bar darker === /
+
+/ Main container / cards background /
+body,
+main,
+.container,
+[class="grid"],
+[class="icons"],
+[class="app-"],
+.card,
+div[style="background-color: white"],
+div[style="background: #fff"],
+section,
+.content {
+    background-color: #161b22 !important;   /* GitHub dark-ish /
+    / Try these alternatives:
+    #0d1117      ← very dark
+    #1a1a2e      ← dark blue
+    #2a2a3f      ← muted dark purple
+    #121212      ← material dark
+    /
+}
+
+/ Bottom tab bar / navigation /
+footer,
+.bottom-nav,
+.tab-bar,
+nav,
+[class="bottom"],
+[role="navigation"],
+div[style="position: fixed; bottom: 0"],
+.navigation-bar {
+    background-color: #0f0f1a !important;
+    border-top-color: #333 !important;
+}
+
+/ If icons have white backgrounds themselves /
+img[alt="YouTube"],
+img[alt="Steam"],
+img[alt="X"],
+img[alt="TikTok"],
+.app-icon,
+.icon-wrapper,
+button img,
+a > img {
+    background-color: transparent !important;
+}
+
+/ Optional: make the thin separator line darker too */
+hr, .divider {
+    border-color: #333 !important;
+}
+</style>
 
 </html>
+
